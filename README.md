@@ -26,7 +26,7 @@ rentApart позволява на собственици и агенти да п
 | Слой | Технология |
 |------|------------|
 | База данни | Microsoft SQL Server |
-| Сървърна част | ASP.NET Core MVC (.NET 8) |
+| Сървърна част | ASP.NET Core MVC (.NET 10) |
 | Достъп до данни | Entity Framework Core |
 | Клиентска част | Razor Views, HTML, CSS, JavaScript, Bootstrap |
 | Тестване | xUnit, Moq |
@@ -53,7 +53,7 @@ rentApart/
 
 ### Изисквания
 
-- [.NET SDK 8.0](https://dotnet.microsoft.com/download) (минимум .NET 6)
+- [.NET SDK 10.0](https://dotnet.microsoft.com/download) (минимум .NET 6)
 - Microsoft SQL Server (LocalDB, Express или пълна версия)
 - Git
 
