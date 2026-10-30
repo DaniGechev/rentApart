@@ -426,3 +426,16 @@ FodyWeavers.xsd
 
 # Official VS Code C# Dev Kit Extension exclusion
 #*.lscache
+
+# ---- rentApart: секрети и локални настройки ----
+.env
+.env.*
+!.env.example
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+*.pfx
+*.key
+
+# Качени от потребители файлове (локално)
+**/wwwroot/uploads/
